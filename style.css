@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.debugCanvas {
+  position: fixed;
+  width: 300px;
+  max-width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
